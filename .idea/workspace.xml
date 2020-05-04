@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="081bb407-b463-4a41-b66c-5193edfa16dc" name="Default Changelist" comment="" />
+    <list default="true" id="081bb407-b463-4a41-b66c-5193edfa16dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/felipe_silva.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/GeneratePeopleWebFunctionality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/pages/GeneratePeopleWebPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/runTest/RunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GeneratePeople.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/commons/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/configuration/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/configuration/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/LoginWebFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/LoginWebFunctionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/NewUserWebFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/NewUserWebFunctionality.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +28,12 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Substep Feature" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -31,6 +50,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaBDD" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -55,10 +76,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1811" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1588595237121">
+    <state x="1723" y="167" key="#Feature:_GeneratePeople" timestamp="1588618680494">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
-    <state x="1811" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588595237121" />
+    <state x="1723" y="167" key="#Feature:_GeneratePeople/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588618680494" />
+    <state x="1811" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1588609524908">
+      <screen x="1366" y="0" width="1280" height="994" />
+    </state>
+    <state x="1811" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588609524908" />
     <state x="1585" y="422" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588270157748">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
@@ -67,6 +92,14 @@
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
     <state x="1756" y="356" width="512" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588267428314" />
+    <state x="1786" y="252" key="FileChooserDialogImpl" timestamp="1588612551157">
+      <screen x="1366" y="0" width="1280" height="994" />
+    </state>
+    <state x="1786" y="252" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588612551157" />
+    <state x="1536" y="152" key="Maven.ArtifactSearchDialog" timestamp="1588612825368">
+      <screen x="1366" y="0" width="1280" height="994" />
+    </state>
+    <state x="1536" y="152" key="Maven.ArtifactSearchDialog/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588612825368" />
     <state x="184" y="11" key="SettingsEditor" timestamp="1588258446442">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

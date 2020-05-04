@@ -8,6 +8,31 @@ public class BaseTest {
 
     protected static WebDriver webDriver;
     protected static WebDriverWait webWait;
+    protected static String devsName, devsEmail, devsPassword;
+
+    public static String getDevsEmail() {
+        return devsEmail;
+    }
+
+    public static void setDevsEmail(String devsEmail) {
+        BaseTest.devsEmail = devsEmail;
+    }
+
+    public static String getDevsPassword() {
+        return devsPassword;
+    }
+
+    public static void setDevsPassword(String devsPassword) {
+        BaseTest.devsPassword = devsPassword;
+    }
+
+    public static String getDevsName() {
+        return devsName;
+    }
+
+    public static void setDevsName(String devsName) {
+        BaseTest.devsName = devsName;
+    }
 
     protected void initializeWebApplication(WebApplication webApplication, boolean trueFalse) {
         webDriver = webApplication.getDriver();
