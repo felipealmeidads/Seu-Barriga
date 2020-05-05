@@ -1,0 +1,216 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# author: Felipe Almeida da Silva"
+      },
+      {
+        "line": 2,
+        "value": "# date: 04-05-2020"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15404764200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeDevsWeb()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Record the generated profile information",
+        "description": "",
+        "id": "generate-a-profile;record-the-generated-profile-information",
+        "after": [
+          {
+            "result": {
+              "duration": 1021728401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDevsWeb()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 529515801,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "what a milestone for not generating scores",
+            "match": {
+              "location": "GeneratePeopleWebSteps.whatAMilestoneForNotGeneratingScores()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169448799,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click the button \u0027GERAR PESSOA\u0027",
+            "match": {
+              "location": "GeneratePeopleWebSteps.clickTheButtonGERARPESSOA()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 800358900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I collect all the necessary data",
+            "match": {
+              "location": "GeneratePeopleWebSteps.iCollectAllTheNecessaryData()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@4devsWeb"
+          },
+          {
+            "line": 6,
+            "name": "@generate4Devs"
+          }
+        ]
+      }
+    ],
+    "name": "Generate a profile",
+    "description": "Record the generated profile information",
+    "id": "generate-a-profile",
+    "keyword": "Feature",
+    "uri": "GeneratePeople.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# date: 05-05-2020"
+      },
+      {
+        "line": 2,
+        "value": "# author: Felipe Almeida da Silva"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11677314200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSrBarrigaWeb()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Create a register with valid data",
+        "description": "",
+        "id": "make-a-registration;create-a-register-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 881057900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSrBarrigaWeb()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 817901900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "that user creation access",
+            "match": {
+              "location": "NewUserWebSteps.thatUserCreationAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 840071899,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill the fields with valid data",
+            "match": {
+              "location": "NewUserWebSteps.iFillTheFieldsWithValidData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 773675701,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on \u0027CADASTRAR\u0027",
+            "match": {
+              "location": "NewUserWebSteps.iClickOnCADASTRAR()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92999400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I see the message \"Usuário inserido com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Usuário inserido com sucesso",
+                  "offset": 19
+                }
+              ],
+              "location": "NewUserWebSteps.iSeeTheMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@srbarrigaWeb"
+          },
+          {
+            "line": 6,
+            "name": "@newUserWeb"
+          }
+        ]
+      }
+    ],
+    "name": "Make a registration",
+    "description": "Successfully register",
+    "id": "make-a-registration",
+    "keyword": "Feature",
+    "uri": "NewUser.feature"
+  }
+]

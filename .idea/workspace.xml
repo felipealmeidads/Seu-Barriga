@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="081bb407-b463-4a41-b66c-5193edfa16dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/felipe_silva.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/GeneratePeopleWebFunctionality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/pages/GeneratePeopleWebPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/runTest/RunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GeneratePeople.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Register.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/steps/web/GeneratePeopleWebSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/steps/web/NewUserWebSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/commons/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/configuration/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/configuration/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/LoginWebFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/LoginWebFunctionality.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/NewUserWebFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/NewUserWebFunctionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/pages/NewUserWebPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/pages/NewUserWebPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/runTest/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/runTest/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GeneratePeople.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/GeneratePeople.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NewUser.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaBDD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/steps/web" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -61,6 +56,28 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\felipe.silva\Documents\POO\java5-projetos-inicias\projeto-srbarriga\chromedriver80" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projeto-srbarriga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.herokuapp.srbarriga.runTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.herokuapp.srbarriga.runTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.herokuapp.srbarriga.runTest.RunTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RunTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -80,10 +97,10 @@
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
     <state x="1723" y="167" key="#Feature:_GeneratePeople/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588618680494" />
-    <state x="1811" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1588609524908">
+    <state x="1811" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1588703975879">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
-    <state x="1811" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588609524908" />
+    <state x="1811" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588703975879" />
     <state x="1585" y="422" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588270157748">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
@@ -92,10 +109,26 @@
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
     <state x="1756" y="356" width="512" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588267428314" />
-    <state x="1786" y="252" key="FileChooserDialogImpl" timestamp="1588612551157">
+    <state x="1786" y="252" key="FileChooserDialogImpl" timestamp="1588690491576">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
-    <state x="1786" y="252" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588612551157" />
+    <state x="1786" y="252" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588690491576" />
+    <state width="1237" height="267" key="GridCell.Tab.0.bottom" timestamp="1588706795990">
+      <screen x="1366" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="267" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588706795990" />
+    <state width="1237" height="267" key="GridCell.Tab.0.center" timestamp="1588706795990">
+      <screen x="1366" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="267" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588706795990" />
+    <state width="1237" height="267" key="GridCell.Tab.0.left" timestamp="1588706795990">
+      <screen x="1366" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="267" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588706795990" />
+    <state width="1237" height="267" key="GridCell.Tab.0.right" timestamp="1588706795990">
+      <screen x="1366" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="267" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588706795990" />
     <state x="1536" y="152" key="Maven.ArtifactSearchDialog" timestamp="1588612825368">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
@@ -108,5 +141,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588258266919" />
+    <state x="1758" y="418" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1588690676018">
+      <screen x="1366" y="0" width="1280" height="994" />
+    </state>
+    <state x="1758" y="418" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588690676018" />
   </component>
 </project>

@@ -26,6 +26,9 @@ public class NewUserWebPage {
     @FindBy(xpath = "//input[@value='Cadastrar']")
     private WebElement btnRegister;
 
+    @FindBy(xpath = "//div[@class='alert alert-success']")
+    private WebElement msgRegister;
+
     public WebElement getLinkNewUser() {
         return linkNewUser;
     }
@@ -44,5 +47,9 @@ public class NewUserWebPage {
 
     public WebElement getBtnRegister() {
         return btnRegister;
+    }
+
+    public WebElement getMsgRegister() {
+        return msgRegister;
     }
 }

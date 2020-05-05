@@ -38,7 +38,7 @@ public class BaseTest {
         webDriver = webApplication.getDriver();
         webDriver.manage().window().maximize();
         if(trueFalse) {
-            webDriver.get(PropertiesManager.getPropertiesValue("URL_SRBARRIGA"));
+        webDriver.get(PropertiesManager.getPropertiesValue("URL_SRBARRIGA"));
         }
         else if (!trueFalse) {
             webDriver.get(PropertiesManager.getPropertiesValue("URL_4DEVS"));

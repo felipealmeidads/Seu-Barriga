@@ -37,4 +37,9 @@ public class NewUserWebFunctionality extends BaseTest {
         this.newUserWebPage.getBtnRegister().click();
     }
 
+    public String messageRegister() {
+        webWait.until((ExpectedConditions.visibilityOf(this.newUserWebPage.getMsgRegister())));
+        return this.newUserWebPage.getMsgRegister().getText();
+    }
+
 }
