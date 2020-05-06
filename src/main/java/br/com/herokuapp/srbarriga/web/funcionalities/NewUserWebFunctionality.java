@@ -30,6 +30,7 @@ public class NewUserWebFunctionality extends BaseTest {
     public void registerPassword() {
         webWait.until(ExpectedConditions.visibilityOf(this.newUserWebPage.getInputPassword2()));
         this.newUserWebPage.getInputPassword2().sendKeys(getDevsPassword());
+        loginEmailPassword();
     }
 
     public void clickRegister() {

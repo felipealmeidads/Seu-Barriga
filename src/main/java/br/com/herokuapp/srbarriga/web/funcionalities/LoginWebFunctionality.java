@@ -14,16 +14,21 @@ public class LoginWebFunctionality extends BaseTest {
 
     public void insertEmail() {
         webWait.until(ExpectedConditions.visibilityOf(this.loginWebPage.getInputEmail()));
-        this.loginWebPage.getInputEmail().sendKeys(getDevsEmail());
+        this.loginWebPage.getInputEmail().sendKeys(loginEmail);
     }
 
     public void insertPassword() {
         webWait.until(ExpectedConditions.visibilityOf(this.loginWebPage.getInputPassword()));
-        this.loginWebPage.getInputPassword().sendKeys(getDevsPassword());
+        this.loginWebPage.getInputPassword().sendKeys(loginPassword);
     }
 
     public void clickLogin() {
         webWait.until(ExpectedConditions.elementToBeClickable(this.loginWebPage.getBtnLogin()));
         this.loginWebPage.getBtnLogin().click();
+    }
+
+    public String msgWelcome() {
+        webWait.until(ExpectedConditions.visibilityOf(this.loginWebPage.getMsgLogin()));
+        return this.loginWebPage.getMsgLogin().getText();
     }
 }

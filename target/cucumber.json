@@ -7,7 +7,7 @@
       },
       {
         "line": 2,
-        "value": "# date: 04-05-2020"
+        "value": "# date: 06-05-2020"
       }
     ],
     "line": 3,
@@ -16,7 +16,7 @@
         "before": [
           {
             "result": {
-              "duration": 15404764200,
+              "duration": 14363564400,
               "status": "passed"
             },
             "match": {
@@ -27,11 +27,11 @@
         "line": 7,
         "name": "Record the generated profile information",
         "description": "",
-        "id": "generate-a-profile;record-the-generated-profile-information",
+        "id": "run-tests;record-the-generated-profile-information",
         "after": [
           {
             "result": {
-              "duration": 1021728401,
+              "duration": 905429200,
               "status": "passed"
             },
             "match": {
@@ -44,7 +44,7 @@
         "steps": [
           {
             "result": {
-              "duration": 529515801,
+              "duration": 350450200,
               "status": "passed"
             },
             "line": 8,
@@ -56,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 169448799,
+              "duration": 153955900,
               "status": "passed"
             },
             "line": 9,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 800358900,
+              "duration": 788656600,
               "status": "passed"
             },
             "line": 10,
@@ -89,32 +89,12 @@
             "name": "@generate4Devs"
           }
         ]
-      }
-    ],
-    "name": "Generate a profile",
-    "description": "Record the generated profile information",
-    "id": "generate-a-profile",
-    "keyword": "Feature",
-    "uri": "GeneratePeople.feature"
-  },
-  {
-    "comments": [
-      {
-        "line": 1,
-        "value": "# date: 05-05-2020"
       },
-      {
-        "line": 2,
-        "value": "# author: Felipe Almeida da Silva"
-      }
-    ],
-    "line": 3,
-    "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 11677314200,
+              "duration": 11183351300,
               "status": "passed"
             },
             "match": {
@@ -122,14 +102,14 @@
             }
           }
         ],
-        "line": 7,
+        "line": 13,
         "name": "Create a register with valid data",
         "description": "",
-        "id": "make-a-registration;create-a-register-with-valid-data",
+        "id": "run-tests;create-a-register-with-valid-data",
         "after": [
           {
             "result": {
-              "duration": 881057900,
+              "duration": 758219400,
               "status": "passed"
             },
             "match": {
@@ -142,10 +122,10 @@
         "steps": [
           {
             "result": {
-              "duration": 817901900,
+              "duration": 708550700,
               "status": "passed"
             },
-            "line": 8,
+            "line": 14,
             "name": "that user creation access",
             "match": {
               "location": "NewUserWebSteps.thatUserCreationAccess()"
@@ -154,10 +134,10 @@
           },
           {
             "result": {
-              "duration": 840071899,
+              "duration": 604741300,
               "status": "passed"
             },
-            "line": 9,
+            "line": 15,
             "name": "I fill the fields with valid data",
             "match": {
               "location": "NewUserWebSteps.iFillTheFieldsWithValidData()"
@@ -166,10 +146,10 @@
           },
           {
             "result": {
-              "duration": 773675701,
+              "duration": 918151800,
               "status": "passed"
             },
-            "line": 10,
+            "line": 16,
             "name": "I click on \u0027CADASTRAR\u0027",
             "match": {
               "location": "NewUserWebSteps.iClickOnCADASTRAR()"
@@ -178,10 +158,10 @@
           },
           {
             "result": {
-              "duration": 92999400,
+              "duration": 66874700,
               "status": "passed"
             },
-            "line": 11,
+            "line": 17,
             "name": "I see the message \"Usuário inserido com sucesso\"",
             "match": {
               "arguments": [
@@ -197,20 +177,104 @@
         ],
         "tags": [
           {
-            "line": 6,
+            "line": 12,
             "name": "@srbarrigaWeb"
           },
           {
-            "line": 6,
+            "line": 12,
             "name": "@newUserWeb"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13172065300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSrBarrigaWeb()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Log in with registered data",
+        "description": "",
+        "id": "run-tests;log-in-with-registered-data",
+        "after": [
+          {
+            "result": {
+              "duration": 780364000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSrBarrigaWeb()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 433470900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I fill the fields with registered data",
+            "match": {
+              "location": "LoginWebSteps.iFillTheFieldsWithRegisteredData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 763800400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on \u0027Entrar\u0027",
+            "match": {
+              "location": "LoginWebSteps.iClickOnEntrar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63282900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "see the message \"Bem vindo,\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bem vindo,",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginWebSteps.seeTheMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@srbarrigaWeb"
+          },
+          {
+            "line": 19,
+            "name": "@loginWeb"
           }
         ]
       }
     ],
-    "name": "Make a registration",
-    "description": "Successfully register",
-    "id": "make-a-registration",
+    "name": "Run tests",
+    "description": "Run tests on the Seu Barriga website",
+    "id": "run-tests",
     "keyword": "Feature",
-    "uri": "NewUser.feature"
+    "uri": "Xpto.feature"
   }
 ]

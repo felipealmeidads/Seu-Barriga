@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(monochrome = true, snippets = SnippetType.CAMELCASE, plugin = { "pretty", "json:target/cucumber.json" },
         features = { ".//src//test//resources//features" },
         glue = { "br.com.herokuapp.srbarriga.steps.web", "br.com.herokuapp.srbarriga.configuration" },
-        tags = {"@generate4Devs, @newUserWeb"})
+        tags = {"@generate4Devs, @newUserWeb, @loginWeb"}) //@loginWeb //@generate4Devs //@newUserWeb
 
 
 public class RunTest extends BaseTest {

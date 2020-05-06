@@ -20,6 +20,9 @@ public class LoginWebPage {
     @FindBy(xpath = "//button[@class='btn btn-primary']")
     private WebElement btnLogin;
 
+    @FindBy(xpath = "//div[@class='alert alert-success']")
+    private WebElement msgLogin;
+
     public WebElement getInputEmail() {
         return inputEmail;
     }
@@ -30,5 +33,9 @@ public class LoginWebPage {
 
     public WebElement getBtnLogin() {
         return btnLogin;
+    }
+
+    public WebElement getMsgLogin() {
+        return msgLogin;
     }
 }

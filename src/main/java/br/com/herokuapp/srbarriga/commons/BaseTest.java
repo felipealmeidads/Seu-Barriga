@@ -8,8 +8,12 @@ public class BaseTest {
 
     protected static WebDriver webDriver;
     protected static WebDriverWait webWait;
-    protected static String devsName, devsEmail, devsPassword;
+    protected static String devsName, devsEmail, devsPassword, loginEmail, loginPassword;
 
+    public static void loginEmailPassword() {
+        loginEmail = getDevsEmail();
+        loginPassword = getDevsPassword();
+    }
     public static String getDevsEmail() {
         return devsEmail;
     }
