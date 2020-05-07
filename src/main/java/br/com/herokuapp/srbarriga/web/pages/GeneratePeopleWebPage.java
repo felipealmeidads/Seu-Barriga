@@ -11,8 +11,8 @@ public class GeneratePeopleWebPage {
         PageFactory.initElements(webDriver, this);
     }
 
-    @FindBy(xpath = "//div[3]/div[1]/div[3]/label/span")
-    private WebElement clickNo;
+//    @FindBy(xpath = "//div[3]/div[1]/div[3]/label/span")
+//    private WebElement clickNo;
 
     @FindBy(id = "bt_gerar_pessoa")
     private WebElement btnGeneratePeople;
@@ -26,9 +26,9 @@ public class GeneratePeopleWebPage {
     @FindBy(xpath = "//*[@id='senha']/span[1]")
     private WebElement catchPassword;
 
-    public WebElement getClickNo() {
-        return clickNo;
-    }
+//    public WebElement getClickNo() {
+//        return clickNo;
+//    }
 
     public WebElement getBtnGeneratePeople() {
         return btnGeneratePeople;

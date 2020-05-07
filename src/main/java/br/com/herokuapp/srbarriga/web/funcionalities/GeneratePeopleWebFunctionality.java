@@ -12,10 +12,10 @@ public class GeneratePeopleWebFunctionality extends BaseTest {
         this.generatePeopleWebPage = new GeneratePeopleWebPage(webDriver);
     }
 
-    public void noGeneratePoint() {
-        webWait.until(ExpectedConditions.elementToBeClickable(this.generatePeopleWebPage.getClickNo()));
-        this.generatePeopleWebPage.getClickNo().click();
-    }
+//    public void noGeneratePoint() {
+//        webWait.until(ExpectedConditions.elementToBeClickable(this.generatePeopleWebPage.getClickNo()));
+//        this.generatePeopleWebPage.getClickNo().click();
+//    }
 
     public void clickBtnGeneratePeople() {
         webWait.until(ExpectedConditions.elementToBeClickable(this.generatePeopleWebPage.getBtnGeneratePeople()));

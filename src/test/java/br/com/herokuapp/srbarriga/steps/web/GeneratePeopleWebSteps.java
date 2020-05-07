@@ -13,16 +13,10 @@ public class GeneratePeopleWebSteps {
         this.generatePeopleWebFunctionality = new GeneratePeopleWebFunctionality();
     }
 
-    @Given("^what a milestone for not generating scores$")
-    public void whatAMilestoneForNotGeneratingScores() {
-        this.generatePeopleWebFunctionality.noGeneratePoint();
-    }
-
-    @When("^click the button 'GERAR PESSOA'$")
+    @Given("^click the button 'GERAR PESSOA'$")
     public void clickTheButtonGERARPESSOA() {
         this.generatePeopleWebFunctionality.clickBtnGeneratePeople();
     }
-
     @Then("^I collect all the necessary data$")
     public void iCollectAllTheNecessaryData() {
         this.generatePeopleWebFunctionality.collectName();

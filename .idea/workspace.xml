@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="081bb407-b463-4a41-b66c-5193edfa16dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/steps/web/LoginWebSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Ologin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/commons/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/LoginWebFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/LoginWebFunctionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/NewUserWebFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/funcionalities/NewUserWebFunctionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/pages/LoginWebPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herokuapp/srbarriga/web/pages/LoginWebPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/runTest/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/runTest/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/steps/web/NewUserWebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/herokuapp/srbarriga/steps/web/NewUserWebSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/GeneratePeople.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/GeneratePeople.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Xpto.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/NewUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NewUser.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/herokuapp/srbarriga/commons/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/herokuapp/srbarriga/commons/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/herokuapp/srbarriga/web/funcionalities/LoginWebFunctionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/herokuapp/srbarriga/web/funcionalities/LoginWebFunctionality.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/herokuapp/srbarriga/web/funcionalities/NewUserWebFunctionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/herokuapp/srbarriga/web/funcionalities/NewUserWebFunctionality.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/herokuapp/srbarriga/web/pages/LoginWebPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/herokuapp/srbarriga/web/pages/LoginWebPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Ologin.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Xpto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Xpto.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/herokuapp/srbarriga/runTest/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/herokuapp/srbarriga/runTest/RunTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,30 +108,30 @@
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
     <state x="1585" y="422" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588270157748" />
-    <state x="1756" y="356" width="512" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588267428314">
+    <state x="1756" y="356" width="512" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588871872046">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
-    <state x="1756" y="356" width="512" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588267428314" />
+    <state x="1756" y="356" width="512" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588871872046" />
     <state x="1786" y="252" key="FileChooserDialogImpl" timestamp="1588690491576">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
     <state x="1786" y="252" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588690491576" />
-    <state width="1237" height="530" key="GridCell.Tab.0.bottom" timestamp="1588792181101">
+    <state width="1237" height="530" key="GridCell.Tab.0.bottom" timestamp="1588878052430">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
-    <state width="1237" height="530" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588792181101" />
-    <state width="1237" height="530" key="GridCell.Tab.0.center" timestamp="1588792181101">
+    <state width="1237" height="530" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588878052430" />
+    <state width="1237" height="530" key="GridCell.Tab.0.center" timestamp="1588878052429">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
-    <state width="1237" height="530" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588792181101" />
-    <state width="1237" height="530" key="GridCell.Tab.0.left" timestamp="1588792181101">
+    <state width="1237" height="530" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588878052429" />
+    <state width="1237" height="530" key="GridCell.Tab.0.left" timestamp="1588878052429">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
-    <state width="1237" height="530" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588792181101" />
-    <state width="1237" height="530" key="GridCell.Tab.0.right" timestamp="1588792181101">
+    <state width="1237" height="530" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588878052429" />
+    <state width="1237" height="530" key="GridCell.Tab.0.right" timestamp="1588878052430">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
-    <state width="1237" height="530" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588792181101" />
+    <state width="1237" height="530" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1588878052430" />
     <state x="1536" y="152" key="Maven.ArtifactSearchDialog" timestamp="1588612825368">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
